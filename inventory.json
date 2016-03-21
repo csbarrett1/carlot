@@ -1,0 +1,71 @@
+{
+  "cars": [
+    {
+      "make": "Volkswagen",
+      "model": "Jetta",
+      "year": "2003",
+      "price": "10,999",
+      "color": "Gunmetal",
+      "borderColor": "#757575",
+      "purchased": false,
+      "description": "The Jetta is no longer priced like an economy car; yet, its powerful engine lineup, near-ideal balance between ride and handling and premium cabin materials make it one of our top recommendations to small car buyers.",
+      "picture": "http://spidercars.net/wp-content/uploads/images/2003-Volkswagen-Jetta_16051.jpg"
+    },
+    {
+      "make": "Jeep",
+      "model": "Cherokee",
+      "year": "1995",
+      "price": "6,000",
+      "color": "White",
+      "borderColor": "#E7E9E6",
+      "purchased": false,
+      "description": "Own a 1995 Jeep Cherokee, Two Door, 2WD with the 5 Speed Manual Transmission. Absolutely fantastic of a truck!",
+      "picture": "http://i1182.photobucket.com/albums/x450/Mike111341/NewTires3.jpg"
+
+    },
+    {
+      "make": "Honda",
+      "model": "Accord",
+      "year": "1995",
+      "price": "4,999",
+      "color": "Black",
+      "borderColor": "#151515",
+      "purchased": false,
+      "description": "Honda redesigns its best-seller for 1998. A 3.0-liter V6 engine makes its debut in LX V6 and EX V6 models, marking the first six-cylinder VTEC in the Honda lineup. The standard 2.3-liter four-cylinder is also re-engineered, as is the chassis.",
+      "picture": "http://www.autoyard-lt.com/_img/_up/125193710111.JPG"
+    },
+    {
+      "make": "Jeep",
+      "model": "Cherokee",
+      "year": "1998",
+      "price": "5,999",
+      "color": "Red",
+      "borderColor": "#C20302",
+      "purchased": false,
+      "description": "Cherokee Classic and Limited replace the Cherokee Country. A new 2.5-liter four-cylinder engine is now the base engine for the SE, available with an optional three-speed automatic. New colors include Chili Pepper Red, Emerald Green and Deep Amethyst.",
+      "picture": "http://media.ed.edmunds-media.com/jeep/cherokee/1998/oem/1998_jeep_cherokee_2dr-suv_se_fq_oem_1_500.jpg"
+    },
+    {
+      "make": "Saab",
+      "model": "900",
+      "year": "1995",
+      "price": "4,999",
+      "color": "Tan",
+      "borderColor": "#C2AA85",
+      "purchased": false,
+      "description": "A totally new Saab is introduced with a little help from GM. The new 900 will be available only as a four-door hatchback initially, with a new two-door and convertible to follow. The 900SE four-door features a V6 engine that was developed by GM for use in its Opels.",
+      "picture": "http://media.ed.edmunds-media.com/saab/900/1996/oem/1996_saab_900_4dr-hatchback_se_fq_oem_1_500.jpg"
+    },
+    {
+      "make": "Toyota",
+      "model": "Prius",
+      "year": "2010",
+      "price": "13,999",
+      "color": "White",
+      "borderColor":"#E7E9E6",
+      "purchased": false,
+      "description": "The 2010 Toyota Prius has been fully redesigned. Key improvements for this third-generation model include more power, better fuel economy, enhanced steering feel, more conventional interior controls and sleeker styling.",
+      "picture": "http://media.ed.edmunds-media.com/toyota/prius/2010/oem/2010_toyota_prius_4dr-hatchback_v_fq_oem_1_500.jpg"
+    }
+  ]
+}
