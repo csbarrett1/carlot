@@ -17,7 +17,7 @@
       "year": "1995",
       "price": "6,000",
       "color": "White",
-      "borderColor": "#E7E9E6",
+      "borderColor": "#FFF",
       "purchased": false,
       "description": "Own a 1995 Jeep Cherokee, Two Door, 2WD with the 5 Speed Manual Transmission. Absolutely fantastic of a truck!",
       "picture": "http://i1182.photobucket.com/albums/x450/Mike111341/NewTires3.jpg"
@@ -62,7 +62,7 @@
       "year": "2010",
       "price": "13,999",
       "color": "White",
-      "borderColor":"#E7E9E6",
+      "borderColor":"#FFF",
       "purchased": false,
       "description": "The 2010 Toyota Prius has been fully redesigned. Key improvements for this third-generation model include more power, better fuel economy, enhanced steering feel, more conventional interior controls and sleeker styling.",
       "picture": "http://media.ed.edmunds-media.com/toyota/prius/2010/oem/2010_toyota_prius_4dr-hatchback_v_fq_oem_1_500.jpg"

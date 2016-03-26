@@ -5,3 +5,11 @@
 body {
   background-color: #C9CED0;
 }
+
+.border {
+  border-width: 20px;
+}
+
+.background {
+  background-color: #AAD0C7
+}
