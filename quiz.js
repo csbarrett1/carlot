@@ -1,6 +1,6 @@
 "use strict"
 
-var CarLot = (function() {
+var CarLot = (function(cars) {
 
   // Loop over your array of cars and build up an HTML string to build a card for each car.
   // Use Bootstrap to create rows. Each row should contain 3 columns.
@@ -8,9 +8,25 @@ var CarLot = (function() {
   // Put a border around the car information that matches the color of the car.
 
   function populatePage (inventory) {
+    var carString = "";
     for (let i = 0; i < inventory.length; i++) {
-      carList.innerHTML += "<div class= 'col-xs-4'>" + "<div class='thumbnail'>" + "<img src=" + inventory[i].picture + ">" + "<article  class='info normalState' style= 'height: 190px; padding: 5px; margin-top: 5px; border-radius: 5px; border-color: " + inventory[i].borderColor + "'>" + `<h3 style='margin-top: 0px'> ${inventory[i].year}` + " " + inventory[i].make + " " + `${inventory[i].model}</h3>` + `<h5>${inventory[i].color}</h5>` + `<p class="description" id="card-${i}">${inventory[i].description}</p>` + "</article>" + "</div>" + "</div>";
+      carString += `<div class= 'col-xs-4'>`
+      carString += `<div class='thumbnail'>`
+      carString += `<img src=${inventory[i].picture}>`
+      carString += `<article class='info normalState' style= 'height: 190px; padding: 5px; margin-top: 5px; border-radius: 5px; border-color: ${inventory[i].borderColor};>`
+      carString += `<h3 style='margin-top: 0px'>${inventory[i].year}`
+      carString += ` `
+      carString += `${inventory[i].make}`
+      carString += ` `
+      carString += `${inventory[i].model}</h3>`
+      carString += `<h5>${inventory[i].color}</h5>`
+      carString += `<p class="description" id="card-${i}">${inventory[i].description}</p>`
+      carString += `</article>`
+      carString += `</div>`
+      carString += `</div>`
       };
+
+      carList.innerHTML += carString;
   CarLot.loadInventory(activateEvents);
   CarLot.loadInventory(reset);
     }
@@ -27,7 +43,6 @@ var CarLot = (function() {
       clickedOn.removeClass("clickedOn");
       $(event.target).closest("article").addClass("clickedOn");
       $("input").focus();
-      var rando =  $(event.target).closest("p").attr('id');
       description();
     });
   }
