@@ -9,14 +9,11 @@ body {
   background-color: #C9CED0;
 }
 
-.thinBorder {
+.normalState {
   border: 4px solid;  
 }
 
-.border {
-  border-width: 10px;
-}
-
-.background {
+.clickedOn {
   background-color: #D3DBD8;
+  border: 10px solid;
 }
